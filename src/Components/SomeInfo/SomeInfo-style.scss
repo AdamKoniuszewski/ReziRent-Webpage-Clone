@@ -1,0 +1,23 @@
+.someInfoContainer {
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .trelemorele{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin: 30px auto;
+
+        .whatever {
+            text-align: center;
+            font-weight: 400;
+        }
+    }
+    
+}

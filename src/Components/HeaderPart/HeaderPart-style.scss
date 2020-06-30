@@ -1,0 +1,74 @@
+
+.headerPartBase{
+    width:90%;
+    margin:auto;
+    padding: 100px 0;
+    color:white;
+}
+
+.headerPartContainer {
+    height: 350px;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+    h1 {
+        font-size: 3em;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+    .CityPt2 {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .CitySelectBtn {
+            :hover {
+                cursor: pointer;
+            }
+        }
+
+        .searchBtn {
+            margin-right: 50px;
+            box-sizing: border-box;
+            width: 200px;
+            height: 50px;
+            background-color: lightskyblue;
+            border-radius: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: "Montserrat", sans-serif ;
+            -o-transition: width 300ms linear;
+            -o-transition: height 300ms linear;
+            transition: width 300ms linear;
+            transition: height 300ms linear;
+
+            h3 {
+                font-weight: 100;
+            }
+            &:hover {
+                cursor: pointer;
+                border: solid 3px lightblue;
+                height: 55px;
+                width: 205px;
+            }
+        }
+    }
+    h2 {
+        font-size: 2em;
+    }
+
+    
+}
+
+.headerPartLearnMore {
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
