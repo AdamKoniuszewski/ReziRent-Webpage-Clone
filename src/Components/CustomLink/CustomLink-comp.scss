@@ -1,0 +1,10 @@
+.CustomLink {
+    margin: 0 auto 20px 0;
+    
+    h2 {color: orange;}
+    
+    &.grid{
+        width: 110px;
+        
+    }
+}

@@ -6,7 +6,7 @@ import {Component} from 'react';
 import LandingContainer from './Components/LandingContainer/LandingContainer-comp';
 import SomeInfo from "./Components/SomeInfo/SomeInfo-comp";
 import InfoNoBg from "./Components/InfoNoBG/InfoNoBg-comp";
-
+import Footer from "./Components/Footer/Footer-comp";
 
 //* app *// 
 class App extends Component {
@@ -25,6 +25,7 @@ class App extends Component {
         <LandingContainer />
         <SomeInfo />
         <InfoNoBg />
+        <Footer />
       </div>
       
     );
