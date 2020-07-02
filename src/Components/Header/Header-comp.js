@@ -6,11 +6,9 @@ import logo from "../../images/rezi_rent_logo.png";
 
 const Header = () => {
     return (
-        <div className="wrapper">
-            <div className="left"> 
-                <div className="logo">
-                    <img src={logo} height="35px" alt="logo"/>
-                </div>
+        <div className="headerWrapper">
+            <div className="left">       
+                    <img src={logo} height="28px" alt="logo"/>
                 <div className="navBar">
                     <Link className="headerLink" to="/landlords">LANDLORDS</Link>
                     <Link className="headerLink" to="/tenants">TENANTS</Link>

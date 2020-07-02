@@ -1,31 +1,41 @@
 
 .headerPartBase{
-    width:90%;
+    box-sizing: border-box;
+    width:85%;
+    height:94%;
     margin:auto;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
     color:white;
 }
 
 .headerPartContainer {
-    height: 350px;
-    width:50%;
+    height: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: row;
     
 
     h1 {
         font-size: 3em;
         font-family: 'Montserrat', sans-serif;
+        margin: 7vh 0 2vh 0;
         
     }
 
     .CityPt2 {
         display:flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: row;
+        align-items: flex-end;
 
         .CitySelectBtn {
+
+            margin-right: 10vw;
+            .headerH2Span{
+                display:inline-block;
+                margin-right: 10px;
+            }
             :hover {
                 cursor: pointer;
             }
@@ -34,28 +44,21 @@
         .searchBtn {
             margin-right: 50px;
             box-sizing: border-box;
-            width: 200px;
-            height: 50px;
-            background-color: lightskyblue;
+            width: 150px;
+            height: 40px;
+            background-color: -o-radial-gradient(#C989A2,#A2656C);
+            background-image: radial-gradient(#C989A2,#A2656C);
             border-radius: 25px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            font-family: "Montserrat", sans-serif ;
-            -o-transition: width 300ms linear;
-            -o-transition: height 300ms linear;
-            transition: width 300ms linear;
-            transition: height 300ms linear;
 
             h3 {
-                font-weight: 100;
+                font-weight: 400;
             }
             &:hover {
                 cursor: pointer;
-                border: solid 3px lightblue;
-                height: 55px;
-                width: 205px;
             }
         }
     }
@@ -69,6 +72,13 @@
 .headerPartLearnMore {
     width:100%;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    padding: auto;
+
+    img{
+        margin: 10px;
+    }
+    
 }

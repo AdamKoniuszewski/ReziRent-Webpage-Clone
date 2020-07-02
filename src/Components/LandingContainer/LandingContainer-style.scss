@@ -1,8 +1,7 @@
 .landingContainer {
-    background-image: url("../../images/couch-therapy.jpg");
+    background-image: linear-gradient(rgba(10,10,10,5%), rgba(20,20,20,0) 20%, rgba(20,20,20,0) 90%,rgba(10,10,10,5%)100%),url("../../images/couple-at-home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    background-position-y: -90px;
+    height: 90vh;
 }
 
