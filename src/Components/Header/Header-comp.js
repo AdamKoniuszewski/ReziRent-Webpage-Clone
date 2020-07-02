@@ -20,11 +20,11 @@ const Header = () => {
             <div className="right">
                 <div className="search">
                     <Link className="headerLink" to="/apartments">APARTMENTS</Link> 
-                    <img src={searchIcon} width="20px"/>  
+                    <img src={searchIcon} alt="" width="20px"/>  
                 </div>
                 <div className="LogIn">
                     <Link className="headerLink" to="/login">LOG IN</Link>
-                    <img src={loginIcon} width="20px"/>
+                    <img src={loginIcon} alt="" width="20px"/>
                 </div>
             </div>
            
