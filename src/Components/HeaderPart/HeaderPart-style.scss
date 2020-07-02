@@ -17,9 +17,9 @@
     
 
     h1 {
-        font-size: 3em;
+        font-size: 4em;
         font-family: 'Montserrat', sans-serif;
-        margin: 15vh 0 2vh 0;
+        margin: 20vh 0 2vh 0;
         
     }
 
@@ -28,13 +28,15 @@
         flex-direction: row;
         justify-content: row;
         align-items: flex-end;
+        
 
         .CitySelectBtn {
-
+            font-size: .85em;
             margin-right: 10vw;
             .headerH2Span{
                 display:inline-block;
                 margin-right: 10px;
+                font-size: 3em;
             }
             :hover {
                 cursor: pointer;
@@ -44,19 +46,18 @@
         .searchBtn {
             margin-right: 50px;
             box-sizing: border-box;
-            width: 150px;
-            height: 40px;
+            width: 200px;
+            height: 45px;
             background-color: -o-radial-gradient(#C989A2,#A2656C);
             background-image: radial-gradient(#C989A2,#A2656C);
-            border-radius: 25px;
+            border-radius: 20px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            font-size:1.3em;
+            font-weight: 900;
 
-            h3 {
-                font-weight: 400;
-            }
             &:hover {
                 cursor: pointer;
             }
@@ -78,7 +79,7 @@
     padding: auto;
 
     img{
-        margin: 10px;
+        margin: 15px;
     }
     
 }

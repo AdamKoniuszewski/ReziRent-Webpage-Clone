@@ -10,7 +10,7 @@ const HeaderPart = () => {
             <h1> Find your next home in <br />minutes, for free.</h1>
             <div className="CityPt2">
                 <div className="CitySelectBtn">
-                    <h4>City</h4>
+                    <h2>City</h2>
                     <h2 className="headerH2Span">Select </h2>
                     <img src={arrowDown} alt="" width="15px"/>
                 </div>
@@ -20,8 +20,8 @@ const HeaderPart = () => {
          </div>
          
          <div className="headerPartLearnMore">
-            <img src={mice} alt='' width="15px" name='micePicture'/>
-            <h4>Learn More</h4>
+            <img src={mice} alt='' width="22px" name='micePicture'/>
+            <h3>Learn More</h3>
          </div>
         
         </div>

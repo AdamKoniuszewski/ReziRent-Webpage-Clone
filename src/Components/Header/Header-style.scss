@@ -1,6 +1,6 @@
 .headerLink {
     color:WHITE;
-    font-size: .85em;
+    font-size: 1.2em;
     text-decoration:none;
     margin-left: 30px;
     font-weight: 700;
@@ -26,6 +26,17 @@
 
         .logo, .headerLink{
             background-color: inherit;
+        }
+
+        .search, .LogIn {
+            display:flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+
+            img {
+                margin-left: 10px;
+            }
         }
         
     }
