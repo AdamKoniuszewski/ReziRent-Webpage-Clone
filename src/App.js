@@ -14,17 +14,39 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      text: "ello",
+      anim1: null,
+      
 
-    };
+    }
   }
+
+  
+
+  componentDidMount() {
+    
+    setInterval(()=>
+      {
+        var animatedEl = document.getElementById('test');
+        var viewPortOffset = animatedEl.getBoundingClientRect();
+        var elDistance = window.innerHeight/2;
+        var doAnim = null;
+        viewPortOffset.top < elDistance? (doAnim=true):(doAnim=false);
+        if(doAnim !== this.state.anim1) {this.setState({anim1:doAnim})}
+    }
+    ,
+    2)
+    
+    
+    
+  }
+
 
   render() {
     return (
-      <div className="App">
+      <div className="App" >
         <LandingContainer />
         <SomeInfo />
-        <InfoNoBg />
+        <InfoNoBg anim={this.state.anim1}/>
         <Footer />
       </div>
       

@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <div className="footerContainer"> 
             <div className="footerLayout">
-                <img src={footerLogo} width="100px" height="181" alt="" name="footerLogo" />
+                <img src={footerLogo} width="100vw" height="180vw" alt="" name="footerLogo" />
                 <div className="footerLinksAndSocial">
                     <div className="footerLinks">
                         <div className="fLinksLeft">
@@ -29,10 +29,10 @@ const Footer = () => {
                             
                     </div>
                     <div className="footerSocial">
-                        <a href="https:\\www.facebook.com"><div className="socialIcon"><img width="20px" height="20px" src={FbLogo} alt=""/></div></a>
-                        <a href="https:\\www.twitter.com"><div className="socialIcon"><img width="20px" height="20px" src={TwTLogo} alt=""/></div></a>
-                        <a href="https:\\www.linkedin.com"><div className="socialIcon"><img width="20px" height="20px" src={LinLogo} alt=""/></div></a>
-                        <a href="https:\\www.instagram.com"><div className="socialIcon"><img width="20px" height="20px" src={IGLogo} alt=""/></div></a>
+                        <a href="https:\\www.facebook.com"><div className="socialIcon"><img className="socialIconinside" src={FbLogo} alt=""/></div></a>
+                        <a href="https:\\www.twitter.com"><div className="socialIcon"><img className="socialIconinside" src={TwTLogo} alt=""/></div></a>
+                        <a href="https:\\www.linkedin.com"><div className="socialIcon"><img className="socialIconinside" src={LinLogo} alt=""/></div></a>
+                        <a href="https:\\www.instagram.com"><div className="socialIcon"><img className="socialIconinside" src={IGLogo} alt=""/></div></a>
                         <span>&#xA9; REZI 2020</span>
                     </div>    
                 </div> 

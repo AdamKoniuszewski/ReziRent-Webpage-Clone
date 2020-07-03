@@ -15,9 +15,11 @@
         width: 45%;
         opacity: 1;
         padding: 50px;
-        -o-transition: opacity 300ms linear;
-        transition: opacity 300ms linear;
+        
 
+        &.faded {opacity: 0.8;
+            -o-transition: opacity 300ms linear;
+            transition: opacity 300ms linear;}
         
         
         h1 {
@@ -40,5 +42,8 @@
         }
 
        
+    }
+    .right {
+        padding:30px;
     }
 }
